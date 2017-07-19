@@ -2861,8 +2861,8 @@ THREEx.ArToolkitSource.prototype._initSourceWebcam = function(onReady) {
         var userMediaConstraints = {
 			audio: false,
 			video: {
-				// facingMode: "environment",
-				optional: [{sourceId: devices[1].deviceId}],
+				facingMode: "environment",
+				// optional: [{sourceId: devices[1].deviceId}],
 				// width: {
 				// 	ideal: _this.parameters.sourceWidth,
 				// 	// min: 1024,
